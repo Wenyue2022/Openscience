@@ -3,12 +3,13 @@
 %% ImSAnE installation instructions
 
 Download ZIP
+
 Unzip into one folder, rename the folder as /ImSAnE
 Set the file path wherever you want
 E.g. C:/ImSAnE in windows or /User/Shared/ImSAnE
 
 create a subfolder within ImSAnE, rename it as /external
-copy the following files from /ImSAnE into /external: 
+copy the following files from /ImSAnE into /external : 
 - Fseries.m
 - ellipseFit.m
 - rotationmat3D.m
