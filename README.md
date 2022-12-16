@@ -2,15 +2,29 @@
 
 %% ImSAnE installation instructions
 
-Download the codes as a zip
-Unzip into one folder
-rename the folder as /ImSAnE
-create a subfolder within ImSAnE, rename it as /external
-cut and paste 
-Copy the folder ImSAnE to wherever you want it. 
+Download ZIP
+Unzip into one folder, rename the folder as /ImSAnE
+Set the file path wherever you want
 E.g. C:/ImSAnE in windows or /User/Shared/ImSAnE
 
-Open setup.m in matlab and run each block with command + enter
+create a subfolder within ImSAnE, rename it as /external
+copy the following files from /ImSAnE into /external: 
+- Fseries.m
+- ellipseFit.m
+- rotationmat3D.m
+- tripick.m
+- vec2str.m
+- write_wobj.m
+
+copy the following folder /fast_marching into /external
+create a folder in /fast_marching and rename as /gw
+copy the following folders from /ImSAnE into /fast_marching/gw :
+- gw_core
+- gw_geodesic
+- gw_maths
+- gw_toolkit
+
+Open /ImSAnE/setup.m in matlab and run each block with command + enter
 The last block contain settings that can be changed or left to their default.
 
 
