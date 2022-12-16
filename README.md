@@ -2,8 +2,13 @@
 
 %% ImSAnE installation instructions
 
+Download the codes as a zip
+Unzip into one folder
+rename the folder as /ImSAnE
+create a subfolder within ImSAnE, rename it as /external
+cut and paste 
 Copy the folder ImSAnE to wherever you want it. 
-E.g. C:\ImSAnE in windows or /User/Shared/ImSAnE
+E.g. C:/ImSAnE in windows or /User/Shared/ImSAnE
 
 Open setup.m in matlab and run each block with command + enter
 The last block contain settings that can be changed or left to their default.
