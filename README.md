@@ -6,9 +6,11 @@ Download ZIP
 
 Extract the ZIP 
 Set the file path wherever you want
+
 E.g. C:\ImSAnE in windows or \User\Shared\ImSAnE
 
 create a subfolder within ImSAnE, rename it as /external
+
 copy the following files from \ImSAnE into \external : 
 - Fseries.m
 - ellipseFit.m
@@ -18,7 +20,9 @@ copy the following files from \ImSAnE into \external :
 - write_wobj.m
 
 copy the following folder /fast_marching into /external
+
 create a folder in /fast_marching and rename as /gw
+
 copy the following folders from /ImSAnE into /fast_marching/gw :
 - gw_core
 - gw_geodesic
